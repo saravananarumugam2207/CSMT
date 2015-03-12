@@ -58,7 +58,7 @@ tty_kf5=$(tput kf5 2>&1 | Get_odx)
 tty_kf10=$(tput kf10 2>&1 | Get_odx)
 tty_ent=$(echo | Get_odx)                      # Enter key
 tty_kent=$(tput kent 2>&1 | Get_odx)
-######Added by Amit 
+######Added 22-03-2014 #######
 tty_k0=$(tput k1 2>&1 | Get_odx)
 tty_k1=$(tput k1 2>&1 | Get_odx)
 tty_k2=$(tput k1 2>&1 | Get_odx)
@@ -98,7 +98,7 @@ tty_R="122"
 tty_q="161"
 tty_Q="121"
 
-####Added by Amit
+####Added 6-5-2014 ######
 tty_0="060"
 tty_1="061"
 tty_2="062"
@@ -132,7 +132,7 @@ t_b="177 177"
 t_B="177 012"
 
 
-#### Modified by Amit############
+#### Modified by kiraj ############
 
 t_0="060 012"
 t_1="061 012"
@@ -306,7 +306,7 @@ sig_trap ()
 
 
 #####################################################
-# manu function is for printing the menu options 
+# menu function is for printing the menu options 
 #####################################################
 menu ()
 {
